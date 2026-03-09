@@ -1,0 +1,35 @@
+# Laravel 9 Default Git Ignore
+
+/vendor
+/node_modules
+
+# Laravel environment file
+/.env
+/.env.backup
+/.env.local
+
+# Laravel storage & cache
+/public/storage
+/storage/*.key
+/storage/framework/*
+/storage/logs/*
+/storage/debugbar
+
+# IDE / Editor files
+/.idea
+/.vscode
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Composer / NPM
+/composer.lock
+/package-lock.json
+/yarn.lock
+
+# Homestead / Vagrant
+Homestead.yaml
+Homestead.json
