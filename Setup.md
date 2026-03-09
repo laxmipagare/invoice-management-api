@@ -2,7 +2,7 @@
 
 Setup Instructions
 
-1️. Clone the Project
+ 1️. Clone the Project
 git clone <your-repo-url>
 cd <project-folder>
 
