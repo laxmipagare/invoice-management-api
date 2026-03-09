@@ -1,6 +1,7 @@
 # Invoice Management API (Laravel 9)
 
 Setup Instructions
+
 1️. Clone the Project
 git clone <your-repo-url>
 cd <project-folder>
@@ -69,9 +70,9 @@ Any request without a valid token returns:
 
 Other 
 
-Authentication: Laravel Sanctum (Bearer tokens)
-Admin Middleware: Protects Admin-only endpoints
-JSON Responses: All API calls return JSON
+- Authentication: Laravel Sanctum (Bearer tokens)
+- Admin Middleware: Protects Admin-only endpoints
+- JSON Responses: All API calls return JSON
 Clean MVC Architecture
 PDF Blade Template: Easy logo addition and styling
 Bonus Features: Pagination, multiple invoice items, Docker setup can be added easily
